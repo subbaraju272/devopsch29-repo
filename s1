@@ -2,10 +2,12 @@ mgmt_ip: 10.0.2.2
 sdn_controller: 10.20.2.2
 Vlans:
   pink:
+  green:
    id: 10
  blue:
    id:20
 ports:
  1: [ 10 ]
+ 2: [ 20 ]
  3: [ 10, 20 ]
 auth_server: 10.30.3.3 
